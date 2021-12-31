@@ -35,6 +35,7 @@ export const GradientLayout = ({
           </Text>
         </Box>
       </Flex>
+      <Box paddingY="100px">{children}</Box>
     </Box>
   );
 };
